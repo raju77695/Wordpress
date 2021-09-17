@@ -1,0 +1,9 @@
+<? php
+/*
+plugin Name:user manager
+*/
+register_activation_hook(_file_,'add_user_roles');
+function add_user_roles(){
+var_dump('plugin activated....');
+}
+?>
